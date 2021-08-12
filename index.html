@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Basic Calculator</h1>
+        <div style="background-color: grey;">
+        <input id="inputBox" type="text" placeholder="0" disabled />
+        <div id="box">
+            
+            <button class="boxButtons1 " onclick="clear1()">CE</button>
+            <button class="boxButtons1 " onclick= "clear2()">C</button>
+            <button class="boxButtons1" onclick="backspace()">⟵</button>
+            <button class="boxButtons1 /">÷</button>
+            <button class="boxButtons 7">7</button>
+            <button class="boxButtons 8">8</button>
+            <button class="boxButtons 9">9</button>
+            <button class="boxButtons1 x">x</button>
+            <button class="boxButtons 4">4</button>
+            <button class="boxButtons 5">5</button>
+            <button class="boxButtons 6">6</button>
+            <button class="boxButtons1 -">-</button>
+            <button class="boxButtons 1">1</button>
+            <button class="boxButtons 2">2</button>
+            <button class="boxButtons 3">3</button>
+            <button class="boxButtons1 +" onclick="plus()">+</button>
+            <button class="boxButtons1">+/-</button>
+            <button class="boxButtons 0">0</button>
+            <button class="boxButtons .">.</button>
+            <button class="boxButtons1 " onclick="equals()">=</button>
+        </div>
+        </div>
+    </div>
+
+</body>
+</html>
